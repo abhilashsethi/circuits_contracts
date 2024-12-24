@@ -19,7 +19,7 @@
   },
   "main": "dist/typechain/index.js",
   "exports": {
-    ".": "./index.js"
+    ".": "./dist/typechain/index.js"
   },
   "types": "typechain/index.ts",
   "files": [
