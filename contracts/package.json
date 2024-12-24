@@ -18,6 +18,9 @@
     "deploy:hedera:etdWalletFactory": "hardhat run scripts/deployETDWalletFactory.ts --network hedera"
   },
   "main": "dist/typechain/index.js",
+  "exports": {
+    ".": "./index.js"
+  },
   "types": "typechain/index.ts",
   "files": [
     "dist",
